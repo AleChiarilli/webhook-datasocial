@@ -1,4 +1,7 @@
 from flask import Flask
+import os
+
+HUBSPOT_API_KEY=os.environ.get('HUBSPOT_API_KEY')
 
 app = Flask(__name__)
 
